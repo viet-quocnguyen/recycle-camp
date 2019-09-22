@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to RecycleCam - My Hack The North 2019 Project
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-## Available Scripts
+Recycle Cam is an app with a built-in camera, which takes a picture of a waste item, they need characterized. The built-in AI model, built with Microsoft's Azur's Custom Vision, classifies the waste item as garbage, recycling, compost, or e-waste. It also includes a map feature which informs the user of nearby recycling stations/plants.
 
-In the project directory, you can run:
+You could see the live demo of this project [here](https://aavasapkota.github.io/dump_it/).
 
-### `npm start`
+![recylecam_ewaste](https://user-images.githubusercontent.com/25848067/65382294-d320e480-dccf-11e9-95a9-f65cb5bfce43.JPG)
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![recylecam_recycling](https://user-images.githubusercontent.com/25848067/65382295-d320e480-dccf-11e9-83ee-f94989280754.JPG)
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+![recylecam_compost](https://user-images.githubusercontent.com/25848067/65382296-d320e480-dccf-11e9-97af-ad9ea748400a.JPG)
 
-### `npm test`
+### Built With
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Front-end** - React, Bootstrap, HTML/CSS
+* **Back-end** - Microsoft's Azure's Custom Vision
 
-### `npm run build`
+<!-- GETTING STARTED -->
+## Getting Started
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Prerequisites
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+This is an example of how to list things you need to use the software and how to install them.
+* npm
+```sh
+npm install npm@latest -g
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Installation
 
-### `npm run eject`
+1. Clone the repo
+```sh
+git clone https://github.com/viet-quocnguyen/recycle-camp.git
+```
+2. Install NPM packages
+```sh
+npm install
+```
+3. Start project locally
+```sh
+npm run start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<!-- LICENSE -->
+## License
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
